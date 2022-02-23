@@ -1,0 +1,596 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The case of Richard Thompson and Company with relation to their creditors, published for better information.</title>
+            <author>Richard Thompson and Company.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1677</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 38 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35637</idno>
+            <idno type="STC">Wing C972</idno>
+            <idno type="STC">ESTC R34792</idno>
+            <idno type="EEBO-CITATION">14713500</idno>
+            <idno type="OCLC">ocm 14713500</idno>
+            <idno type="VID">102720</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35637)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 102720)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1566:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The case of Richard Thompson and Company with relation to their creditors, published for better information.</title>
+                  <author>Richard Thompson and Company.</author>
+               </titleStmt>
+               <extent>29 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London printed :</pubPlace>
+                  <date>1677.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Richard Thompson and Company.</term>
+               <term>Bankruptcy --  England --  Case studies.</term>
+               <term>Debtor and creditor --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:102720:1" rendition="simple:additions"/>
+            <p>THE CASE OF Richard Thompſon AND COMPANY: With Relation to their Creditors.</p>
+            <p>Publiſhed for better Information.</p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Year, 1677.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:102720:2"/>
+            <pb n="3" facs="tcp:102720:2"/>
+            <head>The CASE of <hi>Richard Thompſon</hi> and Company.</head>
+            <p>THAT we being ſeverally poſſeſſed of conſiderable Eſtates, did upon the ſe<g ref="char:EOLhyphen"/>cond day of <hi>January</hi> 1670. (as is fre<g ref="char:EOLhyphen"/>quent with other Merchants) enter in<g ref="char:EOLhyphen"/>to a Society among our ſelves, giving <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur joynt Bonds for ſecurity to all ſuch Perſons as <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffered Money to be depoſited with us. Many had <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dviſed, more approved of this our Undertaking, and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aily confirmed us in it; by intruſting us with ſeveral <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>umms to a great value, at the uſual Intereſt: which <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey found ſo little cauſe to repent of or ſuſpect; that notwithſtanding the Calamity which about a year after fell upon Bankers, and conſequently upon ſo many hundreds of Perſons concerned with them in the Ex<g ref="char:EOLhyphen"/>chequer, yet our Creditors continued the more their former Confidence in us, till in ſucceeding years ſo many others choſe to imploy their Money in our hands, that the Debt muſt neceſſarily exceed our Eſtate, of which our Creditors could not at the ſame time be ignorant, yet were not diſtruſtful. And there<g ref="char:EOLhyphen"/>fore we extended our utmoſt Induſtry, and Fidelity, in meaſure to the growth of our Reputation: having
+<pb n="4" facs="tcp:102720:3"/> imbarqued our ſelves in ſeveral advantagious or pro<g ref="char:EOLhyphen"/>bable Trades: That of Wine, that of Silk, that to <hi>Ruſsia,</hi> parts of <hi>Eaſt-India</hi> Shipping, the private Trade to <hi>Eaſt-India,</hi> Lead-Mines, the <hi>Iriſh</hi> Manufactures, Ex<g ref="char:EOLhyphen"/>change, <hi>&amp;c.</hi> omitting nothing within the compaſs of our ingenuity; whereby as we were at firſt, ſo we might ſtill be enabled to comply with our Obligations to ſo many worthy Perſons.</p>
+            <p>Nor were our endeavours herein unſucceſsful; but that notwithſtanding the difficulties which all Mer<g ref="char:EOLhyphen"/>chants have for theſe late years experienced, and which we particularly in ſo various Buſineſs and Adventures muſt neceſſarily have met with, we were by God's Bleſſing alwayes in a condition to perform with our Creditors, and in a rational proſpect of far other For<g ref="char:EOLhyphen"/>tune to our ſelves, than hath ſince befaln us. So that for above five years time we chearfully and punctual<g ref="char:EOLhyphen"/>ly comply'd with all Men, our dealing being direct, and open; nor any viſible or hidden flaw in our Cre<g ref="char:EOLhyphen"/>dits, but we paid every one duly, whether Princi<g ref="char:EOLhyphen"/>pal, or Intereſt, as demanded: nor could it in or<g ref="char:EOLhyphen"/>dinary Reaſon have happened otherwiſe for the fu<g ref="char:EOLhyphen"/>ture.</p>
+            <p>For it is not eaſie to imagine, that Men ſhould con<g ref="char:EOLhyphen"/>ſpire to tear out the Planks of that Veſſel whereof them<g ref="char:EOLhyphen"/>ſelves are the Owners; or plunder their own Fortunes out of a Ship which themſelves had fraighted; nor
+<pb n="5" facs="tcp:102720:3"/> that the ſame Perſons, ſhould at the ſame time build up General Credit, and deſtroy it.</p>
+            <p>There is indeed in all Undertakings of this kind, as <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> other humane Affairs, ſome mutual hazard: But the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dventure of the Debtor however is much greater, and is Caſe much harder than that of the Creditor.</p>
+            <p>For moſt Creditors do only let out to them the Spa<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>able, and more <hi>Superfluous</hi> part of their Eſtates for a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ertain Income: Whereas the Debtor imploys his whole Time, and Induſtry; binds his whole Fortune; <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd which is more, expoſes all his Reputation for Se<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urity to the Creditor's Humour, or Conveniency.</p>
+            <p>But therefore the Creditor, at the ſame time that he <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eceives Bond, does in the very nature of the thing en<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er into a tacit Contract, both that his Debtor may <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mploy the Money, without which it is not to be ſup<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oſed that he ſhould pay Intereſt; and that himſelf <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ill not joyn with the reſt in ſo ſudden and univerſal Draught, as ſhould make it impoſſible to diſcharge <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e Principal.</p>
+            <p>We may well call this a Contract, ſeeing although <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nwritten indeed, and unatteſted, yet is it as firm as <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>umanity to the Debtor, Equity to fellow Creditors: <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſetting thoſe aſide, Truth to a Man's proper Con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rn, and Security can make it.</p>
+            <p>Yet the contrary to this befel us, at a time when we <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>uld leaſt foreſee or expect it. Our Creditors about
+<pb n="6" facs="tcp:102720:4"/> 
+               <hi>Michaelmas</hi> 1675, begining to run at once upon us; and by how much we had given leſs Reaſon for their do<g ref="char:EOLhyphen"/>ing ſo, the leſs hopes was there to allay it by Reaſon. We were not ſo unconcerned, as to be long ignorant whence it all proceeded, but we think it more mee<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and proper in our Condition, to humble our ſelves fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> having aimed at a ſuperfluous Fortune, than to re<g ref="char:EOLhyphen"/>proach the Malice, or Imprudence of ſuch as have oc<g ref="char:EOLhyphen"/>caſioned our Ruine.</p>
+            <p>We attempted (but in vain) to mitigate by Diſcourſe this harſh manner of proceeding, and that not taking place, we made ready Payment, the ſole ſatisfaction that would be admitted. To do this, we did not only exhauſt all thoſe Summs of Money which we ſtill re<g ref="char:EOLhyphen"/>ſerved (at detriment) by us, to have ſupplied the or<g ref="char:EOLhyphen"/>dinary Draughts of our Creditors upon occaſion, but were conſtrained to hale back whatſoever lay within our reach, and which had the moſt appearance of pro<g ref="char:EOLhyphen"/>fit, at the greateſt diſadvantage and loſs.</p>
+            <p>For that general Stock, which was, and had hither<g ref="char:EOLhyphen"/>to been eſteemed as a grand Counterſecurity to every particular Creditor, was now turned into an Argu<g ref="char:EOLhyphen"/>ment of Jealouſie, and Diſcredit: And we were daily ranſacked and run upon with ſuch haſte and violence, as muſt have diſordered the moſt reſponſible Perſon, or Society, in their private Eſtate and Reputation. Where all Men puſh at once, who can ſtand ſingle?
+<pb n="7" facs="tcp:102720:4"/> It were almoſt impoſſible even to tell ready Money in that time, within which we were forced to provide it, and for thoſe, who, (if we may have leave to ſpeak it) although of the moſt importunate, found it uſeleſs, and rather troubleſome to them, as ſoon as received, ſo far from neceſſary.</p>
+            <p>And yet in this condition we bore up from <hi>Michael<g ref="char:EOLhyphen"/>mas</hi> to <hi>March</hi> following, (time enough for ſecond Con<g ref="char:EOLhyphen"/>ſiderations, and milder Counſels) till we had paid about the ſumm of Sixty thouſand pounds, (ſufficient one would have thought to have qualified and aſſwa<g ref="char:EOLhyphen"/>ged ſo cauſleſs a Jealouſie, and ſo extream a Rigour:) But the Humour not abating, and Men being the more hardened by our Compliance, we were then conſtrained to take another Method, the moſt contrary to our Nature, to our Intentions, and to which nothing but the utmoſt neceſſity could have compelled us: For we were indeed as Men ſtifled with the crowd of Demanders, ſo that there was no longer living in it, but about the 9th of <hi>March</hi> aforeſaid we found it neceſ<g ref="char:EOLhyphen"/>ſary to ſummon our Creditors.</p>
+            <p>We propounded to them that we ſhould in eight Six months time, pay off the Principal without Intereſt, which we did upon our beſt computation, of what was yet poſſible in an Eſtate (not by our fault) ſo mangled already, and under ſo ſhatter'd a Reputation.</p>
+            <p>But this our Creditors rejected, and required the
+<pb n="8" facs="tcp:102720:5"/> view of our Books, which we ſubmitted to, wherein there appeared about Thirty five thouſand pounds more Credits, than Debts. Upon the ſight of which, they not looking further into our Loſſes or bad Debts, bu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> taking all for good, and the Contingent for Certain<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thought it reaſonable to impoſe upon us the paying of Intereſt, and to allow us no more than <hi>Six Six Month<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> to extinguiſh the Principal.</p>
+            <p>They could not have exacted any thing more plau<g ref="char:EOLhyphen"/>ſible from us, or more ſuitable to our own inclinations than not to pay one farthing leſs than we owed<g ref="char:punc">▪</g> only we were fearful, having once ſuffered, to enter a<g ref="char:EOLhyphen"/>gain into Conditions that ſhould hinder the Effect.</p>
+            <p>But to overbear us in this, they diſcourſed with ſome probability, and in much ſeriouſneſs aſſured us that up<g ref="char:EOLhyphen"/>on making ſo fair and ſpeedy an Agreement, (eſpeci<g ref="char:EOLhyphen"/>ally ſince by their ſearch in our Books, they had found nothing in the manage of our Affairs, but what was both honeſt, well laid, and Merchant-like) we ſhould find the return of our former Credits, and be fortified with freſh Reputations.</p>
+            <p>This, from thoſe, who had both the power to im<g ref="char:EOLhyphen"/>poſe their own Terms upon us, and ability to make good their own Promiſes, was too ſpecious for us to diſtruſt, and too forceable upon us to have refuſed.</p>
+            <p>We had before offered them freely to deliver up the whole Eſtate into the hands of ſome Truſtees of thei<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="9" facs="tcp:102720:5"/> own Number, to have collected it in for the reſt of the Creditors: But the <hi>Major</hi> Part thought fit, that having agreed to their Terms, and times of Payment, We who were beſt vers'd, and moſt concern'd in the Iſſue of the Affair, ſhould have the care of conducting it to a Period.</p>
+            <p>And now we had reaſon to hope, after we had been induced to ſubmit to the payment of Principal and In<g ref="char:EOLhyphen"/>tereſt, that none would have refuſed to ſign ſuch fair Propoſals, but that we might without diſturbance have collected the Eſtate, which lay at Six and Sevens in a periſhing Condition, for want of preſent management. But as we muſt upon all accounts acknowledge our own Weakneſs; ſo we think we have right to ſay, (upon experience) with reſpect to others, that there are ſome times when Men have leſs of Reaſon than all other Creatures.</p>
+            <p>For it was evident, and our Books which we had ſubjected to a daily inſpection did demonſtrate, that every moment of time gained or loſt was a ſum of Money; that all delay made us the leſs reſponſible; that the Eſtate if none took care of it, would diſpoſe of it ſelf, out of the reach both of the Creditors, and our ſelves; and that our Debtors would poſſeſs it: That there was no coming to an end, but by an Agree<g ref="char:EOLhyphen"/>ment, which therefore the more conſiderable part of our Creditors entred into: and yet nevertheleſs there
+<pb n="10" facs="tcp:102720:6"/> remained ſtill a number ſufficient to obſtruct any good buſineſs of this kind: who though they knew we had drawn out all the Blood in our Veins to give ſatisfacti<g ref="char:EOLhyphen"/>on, yet would not allow us any time to reſtore Na<g ref="char:EOLhyphen"/>ture, but obſtinately refuſed to ſubſcribe the ſaid Agree<g ref="char:EOLhyphen"/>ment: as if they accounted it a more deſirable thing to have their Will, than to exerciſe their Underſtand<g ref="char:EOLhyphen"/>ing; and to execute a cauſleſs and unprofitable Re<g ref="char:EOLhyphen"/>venge, than to arrive at a juſt Payment.</p>
+            <p>It was three or four Months time that had lapſed from the Ninth of <hi>March,</hi> before the greateſt part of our Creditors had Signed; but the other continued Re<g ref="char:EOLhyphen"/>fractory ſo long, until many of our Correſpondents both at home, and abroad in Forreign parts, took ad<g ref="char:EOLhyphen"/>vantage thereby to delay, and ſome to imbezel what they had in their hands; beſides the badneſs of Trade, and the general Poverty, which made all Men leſs ſolvent.</p>
+            <p>We therefore, that the Eſtate might no longer lie as a Waif and Stray, and in right not only of our ſelves, and the ſubſcribing Creditors, but even to thoſe who neglected and oppoſed their own and the common In<g ref="char:EOLhyphen"/>tereſt, took up a Reſolution, whatſoever were the ha<g ref="char:EOLhyphen"/>zard, to encounter it, and commit our ſelves to the Diſcretion of Mankind under God's Providence.</p>
+            <p>Accordingly we undertook the management; but no ſooner were we engaged, than we found our ſelves
+<pb n="11" facs="tcp:102720:6"/> beſet &amp; ſurrounded by thoſe that had ſtood out againſt the Agreement; and who thought it doubtleſs an ho<g ref="char:EOLhyphen"/>neſt, but however a wiſe Deſign for them to be their own Carvers out of the whole Eſtate, now that the reſt had bound themſelves up to expect the times and pro<g ref="char:EOLhyphen"/>portions of Payment.</p>
+            <p>Our firſt Welcom, (and our conſtant Entertainment ſince) was by Threats, endeavouring Statutes of Ban<g ref="char:EOLhyphen"/>querupt, Arreſts, three or four Arreſts ſometimes, and as many ſeveral Declarations, for the ſame ſum of Mo<g ref="char:EOLhyphen"/>neys, Attatchments, Volumns of Menacing Letters, with a multitude of other Affronts and Unkindneſſes, too long here to enumerate: It is not indeed to be de<g ref="char:EOLhyphen"/>ſcribed the Miſery and Importunity we again lived under.</p>
+            <p>If (as it was in this Caſe our Duty) we defended the Eſtate againſt them, it was ſo at a great and conſtant Expence, being liable to pay their Charges, beſides the Principal and Intereſt; which we were forced to tear out of the whole Cloth, and to ſpoil the whole juſt Diſtribution, in order to ſatisfie their particular Con<g ref="char:EOLhyphen"/>cern.</p>
+            <p>Now to ſupply this continual Flame with Fewel, we cut off the moſt fruitful Branches, and grabbled up the very Roots of our moſt profitable Trades, (for there was no doing the one without the other:) yet here alſo they way-laid and ſtrove to prevent us. One
+<pb n="12" facs="tcp:102720:7"/> of our Company (having ſeveral weeks before pub<g ref="char:EOLhyphen"/>liſhed a Journey for <hi>Ireland,</hi> and left all things here in good Order,) while he went over to gather in Debts, and diſpoſe of that Manufacture, becauſe it was moſt ready at hand; of the greateſt improvement, and raiſ<g ref="char:EOLhyphen"/>ed the more undeſerved Envy and clamour, was Ar<g ref="char:EOLhyphen"/>reſted at the Sea ſide and Impriſoned, with all the ſpightful circumſtances that could be contrived.</p>
+            <p>For in all theſe things, it ſeem'd their buſineſs was not more to enforce Satisfaction to themſelves, than to render it impoſſible for others, not being contented to reap, unleſs they trampled all down, and made havock.</p>
+            <p>The Sums which by this hardſhip they extorted from us, were very great in themſelves, but in the Conſequence much greater, and more intolerable.</p>
+            <p>For hereby we were diſabled from taking any cer<g ref="char:EOLhyphen"/>tain Meaſures of our Time, or the Eſtate, nor could by the Improvement of one Trade ballance the Dimi<g ref="char:EOLhyphen"/>nution in another; but were forc'd to ſnatch at every thing whereſoever we could wrap or rend, to be de<g ref="char:EOLhyphen"/>voured by them. And others in their capacity, (but who were more diſpoſed to Expectation and Forbear<g ref="char:EOLhyphen"/>ance) were induced by their Example, and with more ground of Reaſon and Neceſſity, (leſt nothing ſhould be left) to ſtrike in with them for their Parts, and joyn in the Oppreſſion.</p>
+            <p>What was thus occaſioned by Conſequence, was how<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er
+<pb n="13" facs="tcp:102720:7"/> more innocent in them; and though much, yet <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> prejudicial to us, than what they did by Deſign, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> upon ſet-purpoſe.</p>
+            <p>For every Succeſs they had againſt us, ſeeming to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>m as a Conqueſt; they were not ſatisfied to enjoy <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> fruits of their Victory, unleſs they proclaimed them <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> abroad, and in all places publiſhed the Particulars. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ey adviſed others by Letters, and in their daily diſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urſes egged them on to proſecute us; inſtructing <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>m moreover how to do it in the moſt effectual <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nner. Nay it was come to that at laſt, (ſuch hap<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>eſs did ſome of them take in rendring us miſerable) <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t where they met with a more peaceable Creditor, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y have endeavoured to buy his Claim, that they <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ght have a Title to vex us.</p>
+            <p>They deviſed untrue Reports, fomented undue Su<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cions, and would never ceaſe till they had infected <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a manner the whole Town with a Belief of our ſufficiency: which was a good, and indeed the only <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y to make a future Truth of a preſent Falſhood: <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thoſe who deprive Men at once both of Eſtate <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Reputation, may eaſily foretel what muſt follow.</p>
+            <p>And to put the laſt hand to the Accompliſhment of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Work: As they had ſuggeſted our Inſufficiency, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y defamed our Intentions, (of which God is a bet<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Witneſs) as if we had a deſign to defraud them, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d all others.</p>
+            <pb n="14" facs="tcp:102720:8"/>
+            <p>Whereas by our Payment before the ſtop to abo<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Sixty thouſand pounds, as is before mentioned.</p>
+            <p>By our then offering up the remaining Eſtate to t<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Creditors own diſpoſal and Collection.</p>
+            <p>By the difficulty we made afterwards to undertake this Agreement.</p>
+            <p>By the performance of it ſince under all theſe Pr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſures and Violence from others, (when once under<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ken) till we had iſſued near Fifty thouſand poun<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> more, we have ſufficiently manifeſted to any co<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>mon Ingenuity, how ſincerely we meant, and how u<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>deſervedly we ſuffered under thoſe Aſperſions.</p>
+            <p>But if Cruel Men will judge us by an Effect, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> which themſelves are the Cauſe, what defence is the<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> againſt Calumny?</p>
+            <p>And yet this our Complaint which we make unw<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>lingly, and not by way of reflexion, but of neceſſa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and plain Narrative, might have been ſpared and pr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>vented, had thoſe Worthy Gentlemen, complied wi<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> our firſt Propoſition, or with their own good Intent<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ons, and the Promiſes they made us, who thereby pr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>vailed with us to ſubmit, and on their own Terms <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> pay the Intereſt as well as the Principal.</p>
+            <p>For had they but accordingly refreſhed, and fed <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> again with moderate and ſeaſonable Credits, (where<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> moſt of them after the Agreement made, rather ſtudie<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> how to ſubſtract and drain their Proportions befor<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="15" facs="tcp:102720:8"/> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e time) we had in all probability been able, either <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> manage, or draw in our Eſtate regularly to advan<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ge, and might inſtead of eating our Corn in the <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>oſs, have expected the Harveſt.</p>
+            <p>But where our Friends at once failed us, and our <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nemies all along purſued us, vve muſt be, vve vvere <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>duced to extremity.</p>
+            <p>We (if not rather they) have broken dovvn all <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>eſe moſt probable Trades of, <hi>&amp;c.</hi> before mentioned, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hile others that build upon our Ruines take them up <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the ſame inſtant, and manage them by thoſe that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ere our Agents: ſo rational do our Deſigns yet ap<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ear, and ſo proper our Inſtruments.</p>
+            <p>We have drawn what we had therein back by Ex<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hange at great dammage.</p>
+            <p>Many of our Debtors broke, while we brought <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>em under the ſame circumſtances which obliged us <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> call upon them.</p>
+            <p>Others of them took this advantage upon us on pur<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oſe to defraud us.</p>
+            <p>And ſome delaid Payment out of their own Cove<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ouſneſs.</p>
+            <p>Nor were we able to ſell our Effects at the Mar<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>et price, or upon any tollerable conditions.</p>
+            <p>Being diſabled to Buy, Sell, or Receive Debts in, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ke other Men, but at Twenty, Thirty, and ſometimes <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>orty <hi>per Cent.</hi> loſs, beſides all deſperate Debts, and or<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>inary accidental Loſſes.</p>
+            <pb n="16" facs="tcp:102720:9"/>
+            <p>Our Creditors ſeveral of them, and even ſuch have in 1676 received half of their Money, did ſtill the beginning of the year 1677 ſummon us before t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Lord Chancellor, to ſhew Cauſe why a Statute Banquerupt ſhould not iſſue againſt us, giving up o<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Names to the Clarks of the Office beforehand to p<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>pare it, divulging all upon the Exchange, and throug<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Countries; Declarations, Arreſts, Actions, <hi>&amp;c.</hi> we our daily-Bread, as it hath been from the beginning and no better proſpect for the future.</p>
+            <p>We could not at laſt have ſo much Credit upon th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Exchange as to draw one hundred pounds upon o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Correſpondents beyond Sea, on whom we cou<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> have drawn thouſands without the leaſt ſhew of ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſpition.</p>
+            <p>This has been, and is our Condition, tedious to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> late, but much more to ſuffer, yet not the hundred<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> part of the uſage we have met with, the which we co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ceal out of modeſty to the Actors.</p>
+            <p>And we who were all our lives hitherto of unbl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>miſh'd Reputations, of Reſponſible Fortunes, and (f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> which we appeal to God) of Honeſt, Conſtant, U<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>right Intentions, were become by this means in th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> compaſs of one Year the ſad Objects of common O<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>loquy, or Pity.</p>
+            <p>But that which moſt afflicts our Spirits, (if thereb<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> any diſtinguiſhable degree in ſo extream an Afflictio<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="17" facs="tcp:102720:9"/> in ſo utter a Confuſion) is to reflect upon the Favour and Patience of thoſe worthy Perſons towards us, who by the contrary proceedings of others, are for the pre<g ref="char:EOLhyphen"/>ſent betrayed into the worſt Condition: And would <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o God it were in our power yet to redreſs them.</p>
+            <p>But the Loſſes we have ſuſtained, and muſt foreſee, are ſuch, that we our ſelves can ſcarce believe it, and <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>herefore as yet forbear to mention them; but ſo great <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey are, that we in faithfulneſs, and as the beſt remain<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng husbandry to the Body of the Creditors, are obli<g ref="char:EOLhyphen"/>ged to make our Retreat, and give this Account of it.</p>
+            <p>For though the uſage we have generally met with hath been ſo unmerciful, and as we think unreaſona<g ref="char:EOLhyphen"/>ble, as might corrupt Mens Nature and Principles, and <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>empt us to commit a Baſeneſs not without a coulour <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o juſtifie it;</p>
+            <p>Yet it will be found, that what we are thus inforced <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o do, hath not been in Fraud to our Creditors, but <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he better to pay every one an equal proportion as far as the Eſtate will reach, (if equitably and timely con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>idered:) And to prevent thoſe who would make pri<g ref="char:EOLhyphen"/>vate Seiſures to their own uſe, and leave nothing for the reſt, as hath been too much practiſed already.</p>
+            <pb n="18" facs="tcp:102720:10"/>
+            <p>Thus far we had faithfully ſtated our Caſe befor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> we withdrew, cauſing ſeveral Copies of it to be pr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>pared to repreſent the whole Matter to our Creditor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Conſideration. But it found ſo little entertainmen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in minds freſhly exaſperated, that we were diſcourag<g ref="char:EOLunhyphen"/>ed from making further uſe of it till Time and Expe<g ref="char:EOLunhyphen"/>rience ſhould bear witneſs to the Truth of what w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> declared, and and diſpoſe Men to another temper.</p>
+            <p>In the mean time therefore our Creditors withou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> giving themſelves or us any reſpit to deliberate of Propoſal for other ſatisfaction, Petitioned the Lor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Chancellor upon the very ſame day that their Mone<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> firſt grew due, for a Statute of Banquerupt againſt u<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> which was ſoon granted; And hereby we were pre<g ref="char:EOLunhyphen"/>vented by ſome days, from tendering that Offer which we immediatly after made to ſome of the moſt emine<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Creditors, and within a while after to the whole Bod<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of thoſe about <hi>London,</hi> at a general Meeting upon ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> requeſt at Mr. <hi>Thompſon's.</hi>
+            </p>
+            <p>Where we beſought them to except of 6 <hi>s.</hi> 8 <hi>d. p<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> pound, that being the uttermoſt which upon our be<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Calculation the Eſtate would amount to. But of tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> We promiſed the one half vvithin Six days after thei<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> general ſigning their Aſſent to that Propoſal: And the remaining half within <hi>Two Three Months,</hi> the ſooneſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that We could draw it together out of the hands of ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſeveral Correſpondents.</p>
+            <pb n="19" facs="tcp:102720:10"/>
+            <p>This divers of our Creditors ſubſcribed to upon the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lace; And many others vvere ready to have follow<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d, but ſuſpended again till they might behold a while what the effects vvould be of a new Statute taken out <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y ſome ſelect Creditors; And which was proſecuted vvith extraordinary vigour and violence.</p>
+            <p>For it is vvorth notice, that vvhereas the firſt Statute had been granted upon the general Petition of the Cre<g ref="char:EOLhyphen"/>ditors; And the Commiſſioners therein appointed by <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>heir common Nomination and Conſent: Theſe others procured that firſt to be ſuperſeded; and having ob<g ref="char:EOLhyphen"/>tained a ſecond Commiſſion at their own private Ap<g ref="char:EOLhyphen"/>plication, and vvithout communicating with the Bo<g ref="char:EOLhyphen"/>dy intereſſed; Yet they quaſh'd that alſo, and had an<g ref="char:EOLhyphen"/>other granted. So that in one Months time there were no leſs than three ſeveral Commiſſions of Banquerupt iſſued out againſt us.</p>
+            <p>And this might naturally lead us to ſearch into the Cauſes, and to demonſtrate thoſe Cauſes by the Effects and Proceedings of this third Commiſſion. But nei<g ref="char:EOLhyphen"/>ther is it our Intereſt nor our purpoſe to reproach the preſent Commiſſioners, or by reckoning up other Mens Faults to diſcount for our own Failings, much leſs is it for us to cenſure any ſingle Creditor, who being all in<g ref="char:EOLhyphen"/>damaged, and therefore ſubject to think themſelves in<g ref="char:EOLhyphen"/>jured by us, are free to proſecute each his own Remedy according to his beſt judgment.</p>
+            <pb n="20" facs="tcp:102720:11"/>
+            <p>But whatſoever can be ſaid with Truth toward th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> rectifying our own Reputation, or for better informa<g ref="char:EOLunhyphen"/>tion of the Body of the Creditors, and to vindicate th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> remainder of the Eſtate to their uſe, from the dange<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of this Statute, that we take our ſelves not only allowed but obliged to publiſh, yet always as Men under the re<g ref="char:EOLunhyphen"/>ſtraint of our own modeſty.</p>
+            <p>And therefore we ſhall alſo paſs over all the perſo<g ref="char:EOLunhyphen"/>nal Rigours of this third Commiſſion againſt our ſelv<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> and Families (with all the Menaces, Contumelies, an<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Reflexions upon us) although the like of it hath no<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> been uſually practiſed; and though even of late yea<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> there have ſeveral Caſes happened of as odious circum<g ref="char:EOLunhyphen"/>ſtances, and where the reſpective ſums due to particu<g ref="char:EOLunhyphen"/>lar Creditors have been greater, and yet all accommo<g ref="char:EOLunhyphen"/>dated upon eaſier terms, without any ſuch harſhneſs But if any of the Diſgraces caſt upon us beyond truth or number; or if any ſuch perſonal ſeverities uſed o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> threatned, have or could poſſibly tend to the ſervice o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Creditors, or to enable us to pay any one of them a greater proportion than our Propoſal, We are ſuffi<g ref="char:EOLunhyphen"/>ciently humbled to ſit or lie down under them, and to admit any; though this be the worſt Expedient fo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> their advantage.</p>
+            <p>But as that firſt Run vvas ſo fatal to Us and ou<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Creditors, ſhrivling the whole Eſtate by thoſe forceabl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Evacuations; And vvithdrawing on the ſudden a<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="21" facs="tcp:102720:11"/> Nouriſhment of Credit; ſo theſe ſecond Proceedings, vvhether more or leſs Statutable, if continued, can on<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y contribute to make the Remainder dwindle into nothing.</p>
+            <p>For in all Commiſſions of Banquerupt, unleſs We ſhould imagine the Commiſſioners to be more than Men, and ſo ſelf-denying that they will act againſt their own Intereſt, it is to be ſuppoſed that they will not be their own Executioners, to do any thing that may deſtroy their Office. But whereas it is the Credi<g ref="char:EOLhyphen"/>tors aim to come by their means to a ſpeedier Conclu<g ref="char:EOLhyphen"/>ſion, they on the contrary muſt intend all things where<g ref="char:EOLhyphen"/>by they may perpetuate their Power, and their Sala<g ref="char:EOLhyphen"/>ries.</p>
+            <p>Hence are the Examples ſo frequent of Eſtates torn in pieces, made deſperate, eaten and drunk up by Com<g ref="char:EOLhyphen"/>miſſions, but few or no Preſidents where Creditors have thereby recovered more than the Debtors volun<g ref="char:EOLhyphen"/>tary Propoſal.</p>
+            <p>But however, were ſuch Statutes uſually carried on in the direct and moſt diſintereſſed way and manner, yet the neceſſary Expences that accompany them, and the Charges of Law that follow after, are ſufficient to conſume what the honeſt Debtors have ſav'd to make Reſtitution; and hath ſo far vitiated ſome, or neceſſi<g ref="char:EOLhyphen"/>tated others, that they have caſt away all deſign, or loſt all poſſibility of giving any ſatisfaction.</p>
+            <pb n="22" facs="tcp:102720:12"/>
+            <p>As to what reſpects our own Caſe more particular<g ref="char:EOLhyphen"/>ly, We muſt do the Commiſſioners that right as to confeſs that there hath not been within the memory of Man ſo frequent and diligent ſitting, as hath been day by day upon this Statute; and that We do ſuppoſe them all to be Perſons of that worth as to act above the conſideration of their Salaries, as howſoever that al<g ref="char:EOLhyphen"/>lowance is but due for their pains, and no more than neceſſary for the honour of their employment.</p>
+            <p>But withal it muſt be alſo acknowledged that their ſo conſtant ſitting hath occaſioned ſo much greater Ex<g ref="char:EOLhyphen"/>pence out of the Creditors Eſtate; and that although to hold the Creditors on, to purſue the Statute, and off from Agreement to our Propoſal, there hath been a pretence of mighty Diſcoveries, Yet in truth they have not in this five Months time found out in all, beſides our Wives Jointures, ſo much as will probably defray the Law-Charges, in trying to poſſeſs the Creditors of what the Eſtate hath no Title to.</p>
+            <p>But becauſe it may be retorted upon us, <hi>That all this trouble and expence of the Statute might have been ſpared, had We from the firſt dealt clearly, and not conceal'd our Eſtates, our Books, and our Loſſes.</hi> We ſhall therefore ingenuouſly give account of the Reaſon, and we hope Reaſonableneſs of all our Doings in thoſe three Par<g ref="char:EOLhyphen"/>ticulars, in the ſame order. But if we have either in whole or in part therein erred, We ſhall confeſs it,
+<pb n="23" facs="tcp:102720:12"/> ask Pardon, and do our beſt to redreſs it.</p>
+            <p>As to that firſt of <hi>Concealing the Eſtate,</hi> We have in the former part of this <hi>Narrative</hi> repreſented the Cauſes that led to our Departure, which when we ſaw to be unavoidable, like Men rather to die than live, We ſet our Houſe in order, We looked upon the ſad reſidue of our broken Fortunes as a Legacy to <hi>Weſtminſter-Hall,</hi> and would be all ſpent at the Barr, unleſs We our ſelves ſecured it for the Creditors. For if while We were yet living, till the Ninth of <hi>March</hi> 1675, and when We lay gaſping till the 15th of <hi>June</hi> 1677, Men nevertheleſs rent the whole Eſtate piecemeal be<g ref="char:EOLhyphen"/>fore our faces, and every one was making up his own Pack, there could nothing be expected among them, after We ſhould be civilly dead (for ſo it is with Us) but the greateſt Diſorder and Confuſion. We there<g ref="char:EOLhyphen"/>fore conſidered further, that although we ſhould be at great loſs in fixing or recalling the diſtracted and diſperſed Eſtate, yet it would be more valuable, and turn even ſo to the Creditors better account, than if they were left to rifle for it in our Scritours, or Ware<g ref="char:EOLhyphen"/>houſes.</p>
+            <p>Hence it was that whilſt We were yet of a diſpoſing mind, and before We ſhould be buried in a perpetual Priſon, We choſe, as the diſcreeteſt way, and the ho<g ref="char:EOLhyphen"/>neſteſt in our deplorable Circumſtances, to recollect as We could the ſcattered Eſtate, and having truly com<g ref="char:EOLhyphen"/>puted
+<pb n="24" facs="tcp:102720:13"/> it, to diſtribute it equally as far as it was capa<g ref="char:EOLhyphen"/>ble, which We have accordingly offered in our hum<g ref="char:EOLhyphen"/>ble Propoſal.</p>
+            <p>And for what concerns the ſecond Objection againſt us, <hi>the concealing of our Books,</hi> being much of the ſame nature with the former, We ſhall for further ſatisfa<g ref="char:EOLhyphen"/>ction in them both, appeal to any Conſidering Perſon diſintereſſed, or to the Conſcience of any of our Wor<g ref="char:EOLhyphen"/>thy Creditors, <hi>Whether We could indeed, or ought in this to have done otherwiſe?</hi> For, ſuppoſing our Books to con<g ref="char:EOLhyphen"/>tain the ſubſtance and ſum of the Eſtate: The deli<g ref="char:EOLhyphen"/>very of them could only be required in order to diſ<g ref="char:EOLhyphen"/>covery wherein it conſiſted, and how or where it was diſpoſed; and that diſcovery, to the end that the Cre<g ref="char:EOLhyphen"/>ditors might themſelves collect it in, and recover it; and it was and is indifferent to Us whether they pleaſed to do ſo, or to accept of our humble Propoſal, ſo that We might either one way or the other come to an end with them. But therefore We humbly propoſe theſe <hi>Queries.</hi>
+            </p>
+            <p>Firſt, (in that general ſuſpicion which the Credi<g ref="char:EOLhyphen"/>tors have conceived, and do all along continue and ſtill propagate (though contrary to their own Intereſt, and in prejudice both to the <hi>extrinſick</hi> and <hi>intrinſick</hi> value of the remaining Eſtate) concerning Us and our Actings) Whether they would have admitted thoſe Books (when, or if produced) as true, authentick, and which
+<pb n="25" facs="tcp:102720:13"/> they would reſt by; before that they had made ex<g ref="char:EOLhyphen"/>periment on each particular Article relating to our Negotiations both at Home and in Foreign parts. If (as is probable) they ſhould not, but either all, or moſt, or ſome of them, reſolve to ſuſpect the Books, though never ſo exactly or faithfully kept, what nearer ſhould We have been to a Concluſion with the Creditors notwithſtanding the Delivery? For (which puts all upon a ſhort Iſſue) We will humbly demand once more, <hi>Whether upon ſurren<g ref="char:EOLhyphen"/>dring up our Books to them, would they at the ſame time have delivered us our Bonds, and diſcharged us?</hi> We preſume, until better informed, that whatſoever any good Man might undertake in his own particular, yet that none will affirm it for ſo numerous a Bo<g ref="char:EOLhyphen"/>dy, with ſo many Minds as that of the Creditors. And therefore We leave it to any rational Man to judge, <hi>Whether</hi> (unleſs all of them joyn'd in ſo do<g ref="char:EOLhyphen"/>ing) <hi>it were proper, just, or feaſible for us at once to di<g ref="char:EOLhyphen"/>veſt our ſelves of the whole Eſtate by delivering up our Books, and to make our ſelves at the ſame time liable for the whole Eſtate, our Bonds remaining uncancell'd?</hi>
+            </p>
+            <p>There is a third Clamour againſt us, and not without Reaſon until it be anſwered, about the <hi>Con<g ref="char:EOLhyphen"/>cealment of our Loſſes.</hi>
+            </p>
+            <pb n="26" facs="tcp:102720:14"/>
+            <p>To this We ſay, That they were communicated early (as well as the Caſe) to ſome of our Creditors, and of the moſt active in the Statute.</p>
+            <p>Secondly, That as in the former part of our Caſe We had declared, <hi>that the Loſſes we had ſuſtained, and muſt ſtill foreſee, were ſuch as We could yet ſcarce our ſelves believe, and therefore forbore as then to mention.</hi>
+            </p>
+            <p>So after We came on Review to diſcern them more evidently, We were indeed aſhamed, as in an undecent Nakedneſs to make them very pub<g ref="char:EOLhyphen"/>lick.</p>
+            <p>But laſtly, finding that this was in common diſ<g ref="char:EOLhyphen"/>courſe ſo much inſiſted on againſt us, We have cau<g ref="char:EOLhyphen"/>ſed Copies of them ſome while ago to be delivered to the Commiſſioners, and among the Body of the Creditors; by which, and the further Teſtimony (if required) of our Book-keepers, it may and hath appeared that We have had no leſs than 90000 <hi>l.</hi> Loſs: a Terrible Sum indeed! but the greateſt part of which Dammage we owe to that infortunate Im<g ref="char:EOLhyphen"/>portunity of ſome Creditors. But We hope that now ſuch of them as have been pleaſed to inveigh againſt us themſelves, and to provoke others up<g ref="char:EOLhyphen"/>on that ſingle ſuggeſtion, of not having made out our Loſſes, will hence-forward abate that onely pretence for their Severity, and for their ſuſpicion of our Diſhoneſty.</p>
+            <pb n="27" facs="tcp:102720:14"/>
+            <p>And indeed although We are as capable (if not more) of committing Indiſcretions as any man, and ſhall for ever be ſenſible of that Remarkable One in our firſt entring into ſuch a Society; Yet ſhall no Man diſprove, though it is in every one's power to blemiſh the Uprightneſs of our Intenti<g ref="char:EOLhyphen"/>ons.</p>
+            <p>Have We not paid out above 100000 <hi>l.</hi> ſince <hi>Michaelmas</hi> 1675? Had We not Underſtanding and Opportunity ſufficient (had our Malice been equal to theirs who ſuggeſt ſo ill things of us) to have gone off in the height of our Caſh and Reputation? Did We uſe any indirect means to ſollicite Mens Money into our management? If they were unadviſed in offering, or we in receiving it, Yet did not our Miſcarrying eminently proceed from their greater Raſhneſs in calling it out again in ſo violent a manner? Have we not nevertheleſs in this loweſt Ebb of Humane Condition propoſed to them Six ſhillings and eight-pence <hi>per</hi> pound, which We are ſtill ready to perform if it may be accepted, <hi>viz.</hi> One Moyety immediately after Subſcription, and Security for the Remainder at the times afore<g ref="char:EOLhyphen"/>ſaid?</p>
+            <p>And there is yet one more pregnant Inducement to perſwade them both of our Integrity, and to enter<g ref="char:EOLhyphen"/>tain
+<pb n="28" facs="tcp:102720:15"/> this Motion, which is, That comparing the Sum of the Eſtate when the Books were firſt viſited by the Creditors, being about 175000 <hi>l.</hi> and the account of our Payments ſince being about 50000 <hi>l.</hi> with the Catalogue of our Loſſes, being about 90000 <hi>l.</hi> it appears plainly that this Third Part humbly offered by Us, is the Total of what doth or can remain for Satisfaction.</p>
+            <p>And therefore howſoever it ſhall pleaſe God to diſpoſe and encline the Minds of our worthy Cre<g ref="char:EOLhyphen"/>ditors, yet we ſhall have this Comfort within our own Conſciences, that we have for their ſake been willing to have ſacrificed Our ſelves up to an ho<g ref="char:EOLhyphen"/>neſt Poverty.</p>
+            <p>Yet neither do we deſpair but that thoſe honou<g ref="char:EOLhyphen"/>rable and worthy Perſons will take the whole mat<g ref="char:EOLhyphen"/>ter into their ſerious Conſideration, and that they will firſt in their great Prudence reflect upon the devouring nature of ſuch Statutes, whereof, beſides many other Inſtances, Sir <hi>Anthony Bateman</hi> and his Brothers Caſe is a pregnant evidence, Who having at firſt offered Eight ſhillings <hi>per</hi> pound Compoſi<g ref="char:EOLhyphen"/>tion for his own Debt, and Seven and ſix-pence <hi>per</hi> pound for thoſe Debts which He together with his Brothers were involved in; Yet the Statute hath been carried on about theſe Ten Years at the ex<g ref="char:EOLhyphen"/>pence
+<pb n="29" facs="tcp:102720:15"/> and loſs of about 10000 <hi>l.</hi> out of the Eſtate, and yet but one Twelve-pence <hi>per</hi> pound divided amongſt the Creditors, the Contribution money de<g ref="char:EOLhyphen"/>ducted.</p>
+            <p>That next of all, our Creditors will alſo exerciſe their Chriſtian Pitty, if not to Us and four numerous Families, yet to ſo many Poor Perſons, whoſe Bread we are enforced to feed on; and the moſt, if not the whole of whoſe Livelihood, depends upon the Ac<g ref="char:EOLhyphen"/>ceptance of this Propoſal.</p>
+            <p>And therefore in Concluſion we beſeech them, that in right to themſelves, they will make Us ſo far Honeſt Men as to receive all that we can give, before any further unavoidable Expences and un<g ref="char:EOLhyphen"/>foreſeen Accidents (common to Humane Affairs) may concur to deprive Them and Us of the fruits of our Juſt Intentions. And by this Paper We deſire to ſtand or fall, but not to be judged by any looſe words, or caſual diſcourſes.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
